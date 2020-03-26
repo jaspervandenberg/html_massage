@@ -20,11 +20,11 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 2.1.0'
 
-  gem.add_dependency "charlock_holmes", "~> 0.7.6"
-  gem.add_dependency "nokogiri", "~> 1.8.2"
-  gem.add_dependency "rest-client", "~> 2.0.2"
-  gem.add_dependency "reverse_markdown", "~> 1.1.0"
-  gem.add_dependency "sanitize", "~> 4.6.6"
+  gem.add_dependency "charlock_holmes"
+  gem.add_dependency "nokogiri"
+  gem.add_dependency "rest-client"
+  gem.add_dependency "reverse_markdown"
+  gem.add_dependency "sanitize"
   gem.add_dependency "thor"
 
   gem.add_development_dependency "rspec", "~> 3.8.0"
