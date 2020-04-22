@@ -333,6 +333,11 @@ module HtmlMassager
       @html.strip!
       @html
     end
+    
+    def to_markdown
+      @html.strip!
+      ReverseMarkdown.convert(@html)
+    end
 
   end
 
